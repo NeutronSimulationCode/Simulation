@@ -13,7 +13,7 @@ class Punto : public TObject
   Punto(const Punto *p);
   Punto(double X, double Y, double Z);
 
-    virtual ~Punto();
+    ~Punto();
 
   double GetX() const {return fX;}
   double GetY() const {return fY;}

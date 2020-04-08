@@ -22,7 +22,7 @@ class Generatore : public TObject
   Generatore(int N_particles,double E_iniziale,double dx_beam, double dy_beam, double x0, double y0);
   
 
-  virtual ~Generatore();
+  ~Generatore();
 
   
   void Genera_neutrone(Neutron *n);

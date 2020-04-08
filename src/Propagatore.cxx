@@ -13,7 +13,7 @@
 
 
 ClassImp(Propagatore)
-
+using namespace std;
 
 
 Propagatore::Propagatore(TH1 *Cscatt, TH1 *Hscatt, TH1 *Cabs, TH1 *Habs, double target_side, double target_thickness, double hdensity, double cdensity):TObject(),

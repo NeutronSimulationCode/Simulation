@@ -19,7 +19,7 @@ class Neutron : public TObject
 
 
 
-  virtual ~Neutron();
+  ~Neutron();
 
   Punto GetPunto() const {return fp;}
   Retta GetRetta() const {return fr;}

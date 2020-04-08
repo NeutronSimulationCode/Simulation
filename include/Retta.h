@@ -17,7 +17,7 @@ class Retta : public TObject
   Retta(Punto *p, double th, double ph);
  
 
-  virtual ~Retta();
+  ~Retta();
 
   Punto GetPunto() const {return fp;}
   double GetX() const {return fp.GetX();} 

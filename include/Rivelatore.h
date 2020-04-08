@@ -8,6 +8,7 @@
 #include "Retta.h"
 #include "Punto.h"
 #include "Neutron.h"
+#include "TMath.h"
 
 
 
@@ -22,7 +23,7 @@ class Rivelatore : public TObject
   Rivelatore(double raggio, double x_centro, double y_centro, double z_centro);
   
 
-  virtual ~Rivelatore();
+  ~Rivelatore();
 
   double Intersezione(Neutron *n);
   double GetLength() const {return tp;}
